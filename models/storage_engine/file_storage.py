@@ -27,3 +27,6 @@ class FileStorage:
 	def all(self):
 		""" returns all objects stored in the file """
 		return self.__objs
+	
+	def delete(self, obj):
+		pass
